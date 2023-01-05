@@ -1,13 +1,21 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+    //println("Hello World!")
 
     // kotlinCollection()
 
-    val person = Student(name = "Shihab", city = "Dhaka", age = 32, gender = "Male")
+    /*val person = Student(name = "Shihab", city = "Dhaka", age = 32, gender = "Male")
     // println(person.giveCurrentDetails())
     //println(person.ageAfterFiveYears())
     person.gadgetList("Macbook", "mi band")
-    println(person.fullBio(favColor = "Gray"))
+    println(person.fullBio(favColor = "Gray"))*/
+
+    // test primary constructor, init & secondary constructor
+    val teacher = Teacher("Shihab", lastName = "uddin", hobby = "Gardening")
+
+}
+
+fun testWithAppConstValue() {
+    val appName = AppConstant.appName;
 }
 
 private fun kotlinCollection() {
